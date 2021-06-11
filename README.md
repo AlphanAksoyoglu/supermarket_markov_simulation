@@ -9,4 +9,5 @@
 <p align = "center"><a href="https://github.com/ai-aksoyoglu">@ai-aksoyoglu</a> <a href="https://github.com/AlphanAksoyoglu">@AlphanAksoyoglu</a>  
 <a href="https://github.com/pavrmk">@pavrmk</a>  
 <a href="https://github.com/lenaromanenko">@lenaromanenko</a></p>
+
 ![Supermarket_Visualization](https://github.com/AlphanAksoyoglu/supermarket_markov_simulation/blob/main/movie.gif)
