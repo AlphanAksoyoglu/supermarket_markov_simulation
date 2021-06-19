@@ -10,7 +10,7 @@ A fictional supermarket has collected time/location data for their customers reg
 
 ![Supermarket-Simulation](https://github.com/AlphanAksoyoglu/supermarket_markov_simulation/blob/main/movie.gif?raw=true)
 
-* TOC
+* auto-gen TOC:
 {:toc}
 
 ## Tech Stack
