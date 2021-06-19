@@ -10,8 +10,16 @@ A fictional supermarket has collected time/location data for their customers reg
 
 ![Supermarket-Simulation](https://github.com/AlphanAksoyoglu/supermarket_markov_simulation/blob/main/movie.gif?raw=true)
 
-* auto-gen TOC:
-{:toc}
+- [Markov Analysis on Customer Behavior in a (Fictional) Supermarket](#markov-analysis-on-customer-behavior-in-a--fictional--supermarket)
+  * [Overview](#overview)
+  * [Tech Stack](#tech-stack)
+  * [Data](#data)
+  * [Markov Process (A very brief description)](#markov-process--a-very-brief-description-)
+  * [Usage](#usage)
+    + [Modules & Scripts](#modules---scripts)
+  * [Future Updates (Considered)](#future-updates--considered-)
+  * [Contributors](#contributors)
+  * [Licenses:](#licenses-)
 
 ## Tech Stack
 
