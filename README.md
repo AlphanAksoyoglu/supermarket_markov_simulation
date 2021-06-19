@@ -35,12 +35,12 @@ A fictional supermarket has collected time/location data for their customers reg
 
 ## Markov Process (A very brief description)
 
-Discrete Markov Chains describe a memoryless transition process between well defined discrete states. Memoryless, means that the transition probability $P_{i,j}$ from state $i$ to state $j$  depends only on the current state $i$.
+Discrete Markov Chains describe a memoryless transition process between well defined discrete states. Memoryless, means that the transition probability <img src="https://latex.codecogs.com/gif.latex?P_{i,j}"/> from state  <img src="https://latex.codecogs.com/gif.latex?i"/> to state  <img src="https://latex.codecogs.com/gif.latex?j"/>  depends only on the current state  <img src="https://latex.codecogs.com/gif.latex?i"/>.
 
-Given observations of a system that transitions from a total number of $n$ states, $P_{i,j}$ is calculated simply as the total number of transitions observed from state $i$ to state $j$, divided by total number of transitions from state $i$ (including $i \rightarrow i$) 
-$$
-P_{i,j} = \frac{N^{t}_{i \rightarrow j}}{\sum_\limits{j}^{n}N^{t}_{i \rightarrow j}}
-$$
+Given observations of a system that transitions from a total number of  <img src="https://latex.codecogs.com/gif.latex?n"/> states,  <img src="https://latex.codecogs.com/gif.latex?P^{t}_{i,j}"/> is calculated simply as the total number of transitions observed from state  <img src="https://latex.codecogs.com/gif.latex?i"/> to state  <img src="https://latex.codecogs.com/gif.latex?j"/>, divided by total number of transitions from state  <img src="https://latex.codecogs.com/gif.latex?i"/> (including  <img src="https://latex.codecogs.com/gif.latex?i\rightarrow%20j"/>)
+
+ <img src="https://latex.codecogs.com/gif.latex?P_{i,j}=\frac{N^{t}_{i\rightarrow%20j}}{\sum\limits_{j}^{n}N^{t}_{i\rightarrow%20j}}"/>
+
 
 
 
@@ -59,7 +59,7 @@ $$
 
 Current Workflow is:
 
-Data $\rightarrow$ Transition Matrices $\rightarrow$ Simulation $\rightarrow$ Visualization.
+Data  <img src="https://latex.codecogs.com/gif.latex?\rightarrow"/> Transition Matrices  <img src="https://latex.codecogs.com/gif.latex?\rightarrow"/> Simulation  <img src="https://latex.codecogs.com/gif.latex?\rightarrow"/> Visualization.
 
 All modules and scripts are functional, but user options are limited and requires editing the code to select different data and simulation parameters. These will be addressed in future updates. 
 
@@ -83,11 +83,11 @@ All modules and scripts are functional, but user options are limited and require
 
 - pd.concat() in a loop slows down the SuperMarket() class, will be addressed
 
-- Addressing the Constraint: $N_{customers} = Constant$
+- Addressing the Constraint:  <img src="https://latex.codecogs.com/gif.latex?N_{customers}=Constant"/>
 
-  - SuperMarket() class currently simulates customer behaviour with the constraint of $N_{customers} = Constant$, needs to be updated.
+  - SuperMarket() class currently simulates customer behaviour with the constraint of  <img src="https://latex.codecogs.com/gif.latex?N_{customers}=Constant"/>, needs to be updated.
 
-  - Visulization parameters are set w.r.t the constraint $N_{customers} = Constant$. These need to be generalized
+  - Visulization parameters are set w.r.t the constraint  <img src="https://latex.codecogs.com/gif.latex?N_{customers}=Constant"/>. These need to be generalized
 
 - Most file choice parameters, and options are built-in. These need to be moved to *sysarg* or as class/function parameters   
 
